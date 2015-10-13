@@ -5,7 +5,7 @@ This template is tailored towards math-heavy documents.
 The class, by default uses bibtex instead of biber.
 If you wish to change this, you need to edit simple.cls.
 
-Commands:
+## Commands:
 
 These commands must be before `\begin{document}`.
 
