@@ -9,18 +9,20 @@ Commands:
 
 These commands must be before \begin{document}.
 
-\headerbuffer{ N }
-	This specifies how much space to give the header.
-	N represents a length such as 12px or 1em.
-	If LaTeX gives you a warning, just modify N until it does not.
-\lefthead{ N }
-	Displays N in the left header on each page.
+	\headerbuffer{ N }
 	
-\righthead{ N }
-	Displays N in the right header on each page.
+This specifies how much space to give the header.
+N represents a length such as 12px or 1em.
+If LaTeX gives you a warning, just modify N until it does not.
 
-\centerfoot{ N }
-	Displays N in the center footer on each page.
+	\lefthead{ N }
+Displays N in the left header on each page.
+	
+	\righthead{ N }
+Displays N in the right header on each page.
+
+	\centerfoot{ N }
+Displays N in the center footer on each page.
 
 Note that all of the following must be inside math mode.
 
