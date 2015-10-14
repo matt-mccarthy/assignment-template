@@ -25,11 +25,12 @@
 
 \theoremstyle{plain}
 \newtheorem{thm}{Theorem}[section]
-\newtheorem{cor}[thm]{Corollary}
-\newtheorem{lem}[thm]{Lemma}
+\newtheorem{corollary}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{example}[thm]{Example}
 
 \theoremstyle{definition}
-\newtheorem{defn}{Definition}[section]
+\newtheorem{definition}{Definition}[section]
 
 \def\AA{\mathbb{A}}	% Algebraics
 \def\CC{\mathbb{C}}	% Complex

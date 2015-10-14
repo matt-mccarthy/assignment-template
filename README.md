@@ -50,3 +50,14 @@ Note that all of the following must be inside math mode.
 | `\brac{n}`  | Same functionality as `\left[ n \right]`.                                 |
 | `\angl{n}`  |	Same functionality as `\langle n \rangle`.                                |
 | `\abs{n}`   |	Same functionality as `\left| n \right|`.                                 |
+
+## Environments
+
+| Environment | Counter    |
+|:----------- |:---------- |
+| thm         | thm        |
+| corollary   | thm        |
+| lemma       | thm        |
+| example     | thm        |
+| definition  | definition |
+
