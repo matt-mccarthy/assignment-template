@@ -1,36 +1,40 @@
 \ProvidesClass{simple}[2015/10/12 M. T. McCarthy Assignment Template]
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions \relax
 
-\LoadClass{article}
+\LoadClass{report}
 
 \RequirePackage{amsfonts}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
 \RequirePackage{fullpage}
-\RequirePackage{fancyhdr}
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
-\RequirePackage{lastpage}
 \RequirePackage{mathtools}
 \RequirePackage{setspace}
-\RequirePackage[explicit]{titlesec}
 \RequirePackage{url}
 
 \RequirePackage[backend=bibtex, style=numeric]{biblatex}
-
-\pagestyle{fancy}
 
 \theoremstyle{plain}
 \newtheorem{thm}{Theorem}[section]
 \newtheorem{corollary}[thm]{Corollary}
 \newtheorem{lemma}[thm]{Lemma}
 \newtheorem{example}[thm]{Example}
+\newtheorem{proposition}[thm]{Proposition}
+\newtheorem{property}[thm]{Property}
+\newtheorem*{thm*}{Theorem}
+\newtheorem*{corollary*}{Corollary}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem*{example*}{Example}
+\newtheorem*{proposition*}{Proposition}
+\newtheorem*{property*}{Property}
 
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
+\newtheorem*{definition*}{Definition}
 
 \def\AA{\mathbb{A}}	% Algebraics
 \def\CC{\mathbb{C}}	% Complex
@@ -72,25 +76,3 @@
 	}
 }
 
-\fancyhf{}
-
-\newcommand{\headerbuffer}[1]
-{
-	\setlength{\headheight}{ #1 }
-	\setlength{\headsep}{ 1em } 
-}
-
-\newcommand{\lefthead}[1]
-{
-	\fancyhead[L]{ #1 }
-}
-
-\newcommand{\righthead}[1]
-{
-	\fancyhead[R]{ #1 }
-}
-
-\newcommand{\centerfoot}[1]
-{
-	\fancyfoot[C]{ #1 }
-}
