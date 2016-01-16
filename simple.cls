@@ -1,9 +1,9 @@
 \ProvidesClass{simple}[2015/10/12 M. T. McCarthy Assignment Template]
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions \relax
 
-\LoadClass{report}
+\LoadClass{article}
 
 \RequirePackage{amsfonts}
 \RequirePackage{amsmath}
