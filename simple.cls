@@ -20,11 +20,19 @@
 
 \theoremstyle{plain}
 \newtheorem{thm}{Theorem}[section]
+\newcommand{\thmautorefname}{Theorem}
 \newtheorem{corollary}[thm]{Corollary}
+\newcommand{\corollaryautorefname}{Corrollary}
 \newtheorem{lemma}[thm]{Lemma}
-\newtheorem{example}[thm]{Example}
+\newcommand{\lemmaautorefname}{Lemma}
+\newtheorem{example}{Example}[section]
+\newcommand{\exampleautorefname}{Example}
 \newtheorem{proposition}[thm]{Proposition}
+\newcommand{\propositionautorefname}{Proposition}
 \newtheorem{property}[thm]{Property}
+\newcommand{\propertyautorefname}{Property}
+\newtheorem{postulate}{Postulate}[section]
+\newcommand{\postulateautorefname}{Postulate}
 \newtheorem*{thm*}{Theorem}
 \newtheorem*{corollary*}{Corollary}
 \newtheorem*{lemma*}{Lemma}
@@ -34,6 +42,7 @@
 
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
+\newcommand{\definitionautorefname}{Definition}
 \newtheorem*{definition*}{Definition}
 
 \def\AA{\mathbb{A}}	% Algebraics
@@ -75,4 +84,3 @@
 		\end{array}
 	}
 }
-
