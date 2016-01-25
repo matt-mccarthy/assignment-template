@@ -10,7 +10,7 @@ If you wish to change this, you need to edit simple.cls.
 These commands must be before `\begin{document}`.
 
 `\headerbuffer{ N }`
-	
+
 This specifies how much space to give the header.
 N represents a length such as 12px or 1em.
 If LaTeX gives you a warning, just modify N until it does not.
@@ -18,7 +18,7 @@ If LaTeX gives you a warning, just modify N until it does not.
 `\lefthead{ N }`
 
 Displays N in the left header on each page.
-	
+
 `\righthead{ N }`
 
 Displays N in the right header on each page.
@@ -59,5 +59,5 @@ Note that all of the following must be inside math mode.
 | corollary   | thm        |
 | lemma       | thm        |
 | example     | thm        |
+| postulate	  | postulate  |
 | definition  | definition |
-
